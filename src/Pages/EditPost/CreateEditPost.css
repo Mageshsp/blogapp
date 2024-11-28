@@ -1,0 +1,37 @@
+.createEditPost {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(66, 154, 226, 0.3);
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.createEditPost h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.createEditPost form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.backimg:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .createEditPost {
+        padding: 1rem;
+    }
+
+    .createEditPost h1 {
+      font-size: 1.5rem;
+    }
+}
